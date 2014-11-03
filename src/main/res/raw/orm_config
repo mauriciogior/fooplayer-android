@@ -1,0 +1,72 @@
+#
+# generated on 2014/05/10 08:54:28
+#
+# --table-start--
+dataClass=com.mauriciogiordano.fooplayer.database.Artist
+tableName=artist
+# --table-fields-start--
+# --field-start--
+fieldName=mbid
+id=true
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=url
+# --field-end--
+# --field-start--
+fieldName=image
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.mauriciogiordano.fooplayer.database.Album
+tableName=album
+# --table-fields-start--
+# --field-start--
+fieldName=mbid
+id=true
+# --field-end--
+# --field-start--
+fieldName=artistMbid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=url
+# --field-end--
+# --field-start--
+fieldName=image
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################
+# --table-start--
+dataClass=com.mauriciogiordano.fooplayer.database.Track
+tableName=track
+# --table-fields-start--
+# --field-start--
+fieldName=mbid
+id=true
+# --field-end--
+# --field-start--
+fieldName=artistMbid
+# --field-end--
+# --field-start--
+fieldName=albumMbid
+# --field-end--
+# --field-start--
+fieldName=name
+# --field-end--
+# --field-start--
+fieldName=url
+# --field-end--
+# --field-start--
+fieldName=duration
+# --field-end--
+# --table-fields-end--
+# --table-end--
+#################################

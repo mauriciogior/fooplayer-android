@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/lib/com.mauriciogiordano.fooplayer.view"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/grid_item"
+    android:padding="5dp">
+
+    <ImageView android:id="@+id/cover"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/grid_image_height"
+        android:scaleType="centerCrop"/>
+
+    <com.mauriciogiordano.fooplayer.view.TextView android:id="@+id/artist_name"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:ellipsize="end"
+        android:maxLines="1"
+        android:padding="5dp"
+        android:background="@color/grid_frontground"
+        app:textThickness="4"
+        app:textFor="h3"/>
+</LinearLayout>
